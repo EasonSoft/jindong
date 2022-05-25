@@ -1,0 +1,232 @@
+ul li{
+    list-style: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+body {
+    width: 100%;
+    height: 800px;
+    min-width: 320px;
+    /* max-width: 640px; */
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: -apple-system, Helvetica, sans-serif;
+    color: #666;
+    line-height: 1.5;
+}
+
+a{
+    color: #666;
+    text-decoration: none;
+}
+
+/* 公共样式 */
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+.clearfix::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+/* 网页样式 */
+.app{
+    height: 45px;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.app ul li{
+    float: left;
+    height: 45px;
+    background-color: #333333;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+}
+
+.app ul li:nth-child(1) {
+    width: 8%;
+}
+
+.app ul li:nth-child(2) {
+    width: 10%;
+}
+
+.app ul li:nth-child(3) {
+    width: 57%;
+}
+
+.close img{
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+}
+
+.app ul li:nth-child(2) img {
+    width: 30px;
+    vertical-align: middle;
+}
+
+.app ul li:nth-child(4) {
+    width: 25%;
+    background-color: #F63515;
+}
+
+.search-wrap{
+    position: fixed;
+    width: 100%;
+    height: 44px;   
+    min-width: 320px;
+    /* max-width: 640px; */
+}
+
+.search-btn{
+    position: absolute;
+    left: 0;
+    width: 40px;
+    height: 44px;
+    line-height: 44px;
+
+}
+
+.search-btn input{
+    width: 20px;
+    height: 18px;
+    background: url(../images/s-btn.png) no-repeat;
+    background-size: 20px 18px;
+    margin: 14px 0 0 15px;
+    border: 0;
+}
+
+.jd-icon{
+    float: left;
+    width: 20px;
+    height: 30px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.jd-icon img{
+    width: 20px;
+    height: 15px;
+    margin-top: 8px;
+    margin-left: 13px;
+}
+
+.jd-icon::after{
+    content: "";
+    position: absolute;
+    left: 40px;
+    top: 8px;
+    display: block;
+    width: 2px;
+    height: 15px;
+    background-color: #ccc;
+}
+
+.sou {
+    position: absolute;
+    top: 8px;
+    left: 50px;
+    width: 13px;
+    height: 13px;
+    background: url(../images/jd-sprites.png) no-repeat -84px 0;
+    background-size: 200px auto;
+}
+
+.search-login{
+    position: absolute;
+    right: 0px;
+    top: 0;
+    width: 40px;
+    height: 44px;
+    line-height: 44px;
+}
+
+.search-login input{
+    border: 0;
+    color: #fff;
+    background:rgba(255,255,255,0.15);
+ }
+
+ .search {
+    position: relative;
+    height: 30px;
+    background-color: #fff;
+    margin: 0 50px;
+    border-radius: 15px;
+    margin-top: 7px;
+ }
+
+ .solder img{
+     width: 100%;
+ }
+
+ .brand ul li{
+     float: left;
+     width: 33.33%;
+ }
+
+ .brand ul li img{
+    width: 100%;
+}
+
+.icon-item{
+    width: 100%;
+}
+
+.icon-item ul li{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.icon-item ul li a img{
+    display: block;
+    width: 40px;
+    margin: 10PX auto;
+}
+
+.news {
+    margin-top: 20px;
+}
+
+.w50{
+    width: 50%;
+}
+
+.w25{
+    width: 25%;
+}
+
+.news div{
+    float: left;
+}
+
+.news div a img{
+    width: 100%;;
+}
+
+.news div:nth-child(2){
+    box-sizing: border-box;
+    border-left: 1px solid #ccc;
+}
+
+.news div:nth-child(3){
+    box-sizing: border-box;
+    border-left: 1px solid #ccc;
+}
